@@ -17,6 +17,6 @@ class IdentityLookupViewController: UIViewController {
     }
     
     @IBAction func filterButtonAction(_ sender: Any) {
-        UserDefaults(suiteName: "group.com.artemnovichkov.iOS-11-by-Examples")?.blockedNumber = textField.text
+        UserDefaults(suiteName: "group.com.brightdigit.iOS-11-by-Examples")?.blockedNumber = textField.text
     }
 }
